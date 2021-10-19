@@ -1,6 +1,6 @@
 # Kickstarting with Excel
 
-## Performing analysis on Kickstarter data to uncover trends to determine how other, similar fundraising campaigns turned out based on their launch date and funding goals.
+## Performing analysis on Kickstarter data to uncover trends to determine how similar fundraising campaigns turned out based on their launch date and funding goals.
 
 ### The purpose of this analysis project was to ascertain certain relationships between an abundance of data points that can predict how Louise's play _Fever_ will fare. These correlations were produced by analyzing how well other Kickstarters, specifically plays, prospered based on their launch date and funding goals. This will give Louise an idea of how successful her play _Fever_ will turn out.
 
