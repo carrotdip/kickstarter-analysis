@@ -2,10 +2,10 @@
 
 ## Performing analysis on Kickstarter data to uncover trends to determine how similar fundraising campaigns turned out based on their launch date and funding goals.
 
-### The purpose of this analysis project was to ascertain certain relationships between an abundance of data points that can predict how Louise's play _Fever_ will fare. These correlations were produced by analyzing how well other Kickstarters, specifically plays, prospered based on their launch date and funding goals. This will give Louise an idea of how successful her play _Fever_ will turn out based on her fundraising goal and launch date.
+### The purpose of this analysis project was to ascertain various relationships between an abundance of data points that can predict how Louise's play _Fever_ will fare. These correlations were produced by analyzing how well other Kickstarters, specifically plays, prospered based on their launch date and funding goals. This will give Louise an idea of how successful her play _Fever_ will turn out based on her fundraising goal and launch date.
 
 ### Analysis of Outcomes Based on Launch Date
-The analysis was performed by first determining theater outcomes based on their launch dates. This was done by filtering the data to only include information relating to theater. Campaigns that were live and incomplete were also filtered out. The launch dates were provided in the UNIX timestamp format, which was converted to the MMDDYYY format using a simple equation to convert the time into days and formatted the time into a date. Then, a pivot table was created to visualize the outcomes based on the month the fundraising campaigns were created, by showing the outcomes based on the month the fundraising campaign was started.
+The analysis was performed by first determining theater outcomes based on their launch dates. This was done by filtering the data to only include information relating to theater. Campaigns that were live and incomplete were also filtered out. The launch dates were provided in the UNIX timestamp format, which was converted to the MMDDYYY format using a simple equation to convert the time into days and formatted the time into a date. Then, a pivot table was created to organize the results based on the month the fundraising campaigns were created. From this pivot table, a line graph was utilized to visualize the results.
 ![text](https://github.com/carrotdip/kickstarter-analysis/blob/f2dcf9816123c1bec2a1d9c3c49e991f962d77c1/Theater_Outcomes_Vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
