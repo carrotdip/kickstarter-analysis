@@ -8,11 +8,17 @@
 The analysis was performed by first determining theater outcomes based on their launch dates. This was done by filtering the data to only include information relating to theater. Campaigns that were live and incomplete were also filtered out. 
 ![text](https://github.com/carrotdip/kickstarter-analysis/blob/e9d9352f7438ad9075a3240b94870218a91decc7/Screen%20Shot%202021-10-21%20at%206.48.47%20PM.png)
 ![text](https://github.com/carrotdip/kickstarter-analysis/blob/e9d9352f7438ad9075a3240b94870218a91decc7/Screen%20Shot%202021-10-21%20at%206.49.09%20PM.png)
-The launch dates were provided in the UNIX timestamp format, which was converted to the MMDDYYY format using a simple equation to convert the time into days and formatted the time into a date. Then, a pivot table was created to organize the results based on the month the fundraising campaigns were created. From this pivot table, a line graph was utilized to visualize the results.
+The launch dates were provided in the UNIX timestamp format, which was converted to the MMDDYYY format using a simple equation to convert the time into days and formatted the time into a date. 
+![text](https://github.com/carrotdip/kickstarter-analysis/blob/a388f0d66b7decdd73b840500b3cdb326715a0e0/Screen%20Shot%202021-10-21%20at%206.55.46%20PM.png)
+Then, a pivot table was created to organize the results based on the month the fundraising campaigns were created. 
+![text](https://github.com/carrotdip/kickstarter-analysis/blob/e9d9352f7438ad9075a3240b94870218a91decc7/Screen%20Shot%202021-10-21%20at%206.45.14%20PM.png)m
+From this pivot table, a line graph was utilized to visualize the results.
 ![text](https://github.com/carrotdip/kickstarter-analysis/blob/f2dcf9816123c1bec2a1d9c3c49e991f962d77c1/Theater_Outcomes_Vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
-The outcomes were also analyzed by the proposed goal of the fundraising campaigns. The goals of the campaigns were first divided into different ranges and the number of successful, failed, and cancelled campaigns were calculated using the =COUNTIFS function on Excel. The equation was also able to filter the data collected in the US and regarding plays specifically. Once these numbers were determined, the percentage of successful, failed, and cancelled Kickstarters was calculated. 
+The outcomes of the Kickstarter data was also analyzed by the proposed goal of the fundraising campaigns. The goals of the Kickstarter campaigns were first divided into different ranges and the number of successful, failed, and cancelled campaigns were calculated using the =COUNTIFS function on Excel. 
+![text](https://github.com/carrotdip/kickstarter-analysis/blob/e9d9352f7438ad9075a3240b94870218a91decc7/Screen%20Shot%202021-10-21%20at%206.50.14%20PM.png)
+The equation was also able to filter the data collected in the US and regarding plays specifically. Once these numbers were determined, the percentage of successful, failed, and cancelled Kickstarters was calculated, and visualized in the following graph.
 ![text](https://github.com/carrotdip/kickstarter-analysis/blob/cce9f7f97e530c5b7feb86d76e137020e98e2505/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
