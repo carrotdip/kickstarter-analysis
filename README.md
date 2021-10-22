@@ -26,13 +26,10 @@ Some challenges I faced during this analysis project was understanding what spec
 The equations in Excel were also hard to grasp because they included symbols in the example without definition. Luckily, I was able to figure out which each symbol corresponded to on my own, but I do wish it was clear in the modules. For example, the '!' symbol would be referring to a specific spreadsheet within the Excel file. 
 
 ## Results
-
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+What are two conclusions you can draw about the Outcomes based on Launch Date? + limitations
+The Outcomes based on Launch Date suggests that Kickstarter theater outcomes tends to be the most successful during the month of May. There is a sharp increase of successful plays in May, however, there appears to be a increase in failed theater outcomes as well. Some limitations of this analysis would be that the visualized data is based on the number of Kickstarters during each month. There is an overall increase of theaters launched during May that can....
 
 - What can you conclude about the Outcomes based on Goals?
-
-- What are some limitations of this dataset?
-Some limitations of the dataset would be the limited sample size of the distinct parameters used for analysis. The sample size of the entire data set is far from limited, however, due to the nature of the project, the focus was on US plays specifically. Due to the narrow focus, during the analysis of outcomes based on goals, there were not many data points for plays with goals greater than $25,000. This ....
+US plays that have funding goals less than $5,000 tend to fare better than plays with higher funding goals. This is shown by the consistent decrease in successful outcomes as the goal increases. There are some limitations in this data that causes the percentages to flunctuate with goals over $25,000. Some limitations of the dataset would be the limited sample size of the data used in this analysis due to the distinct parameters used. The sample size of the entire data set is far from limited, however, due to the nature of the project, the focus was on US plays specifically. Due to the narrow focus, during the analysis of US play outcomes based on goals, there were not many data points for plays with goals greater than $25,000. This causes the percentages to become increasingly unrealiable.
 
 - What are some other possible tables and/or graphs that we could create?
-![image](https://user-images.githubusercontent.com/92421274/137826710-c9c8d7ff-ac37-4ead-adf8-a71e54024523.png)
